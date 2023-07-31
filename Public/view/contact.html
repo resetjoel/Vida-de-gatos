@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="shortcut icon" href="../images/cat-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <header id="id-contact">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img src="../images/logo principal.png" alt="" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Historia de Gatos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../view/budin.html">Budin</a></li>
+                    <li><a class="dropdown-item" href="../view/dino.html">Dino</a></li>
+                    <li><a class="dropdown-item" href="../view/nami.html">Nami</a></li>
+                    <li><a class="dropdown-item" href="../view/quico.html">Quico</a></li>
+                    <li><a class="dropdown-item" href="../view/sombra.html">Sombra</a></li>
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                  </li>
+                </li>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="mainContact">
+        <div class="h3Form">
+          <h3>
+            Ingresa los datos para participar por un año de alimento y recibir las novedades sobre nuestros articulos
+          </h3>
+    
+          <form class="form" action="">
+            <div id="divForm">
+              <div class="form1">
+                <label for="name"><b> Nombre:</b></label>
+    
+                <label for="surname"><b> Apellido:</b></label>
+                <label for="email"><b> Email:</b></label>
+                <label for="tel"><b>Telefono:</b></label>
+                <label for="petName"><b> Nombre de tu gato:</b></label>
+                <label for="petSelect"><b> Foto de tu gato:</b></label>
+              </div>
+    
+              <div class="form2">
+                <input required type="text" id="name" name="name" />
+                <input required type="text" id="surname" name="surname" />
+                <input required type="email" name="email" id="email" />
+                <input required type="text" name="tel" id="tel" />
+                <input required type="text" id="petName" name="petName" />
+                <input required type="file">
+              </div>
+            </div>
+            <div class="textsubmit">
+              <label for="coment">Cuentanos la historia de tu gato:</label>
+    
+              <textarea class="textarea" id="coment" name="coment" rows="5" cols="33"></textarea>
+              <input id="submitbtn" class="submitbtn" type="submit" />
+            </div>
+          </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container-general">
+    
+          <div class="map-container">
+            <iframe
+             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12575.901439562005!2d-57.6128163!3d-38.0010352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d8cfe8acc957%3A0xc1d39ed87db9321f!2sCentro%20Municipal%20de%20Zoonosis!5e0!3m2!1ses-419!2sar!4v1690585067197!5m2!1ses-419!2sar" 
+             width="250" height="160" style="border:0;" allowfullscreen="" loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+    
+          <div class="menu-container">
+            <h4>Contacto</h4>
+            <button><a href="mailto:vidadegatos@gmail.com">Correo electronico</a></button>
+            <button><a href="https://www.instagram.com/vidadegatosmdp/">Instagram</a></button>
+            <button><a href="https://api.whatsapp.com/send/?phone=%2B5492236060388&text&type=phone_number&app_absent=0">whatsapp</a></button>
+          </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
